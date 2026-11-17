@@ -31,22 +31,6 @@ Open the local URL printed by Vite (normally http://localhost:5173).
 npm run build
 npm run preview
 ```
-
-## Suggested IBM Bob agentic workflow
-1. Open this folder in IBM Bob.
-2. Use **Plan** mode to inspect the project and request a review of the component structure, responsive strategy and accessibility.
-3. Review and approve the plan before implementation changes.
-4. Use **Agent** mode to ask Bob to improve one scoped area at a time (for example: add wishlist persistence, improve mobile menu, or add unit tests).
-5. Ask Bob to run `npm run build`, inspect errors and summarize changes.
-6. Manually verify search, filters, cart math and the responsive breakpoints in Chrome DevTools.
-7. Review the generated diff before accepting changes; do not claim tests passed unless you ran them.
-
-### Example prompt for IBM Bob — Plan mode
-> Review this BookNest React/Vite project as a senior frontend engineer. Do not edit files yet. Explain the component architecture, data flow, responsive breakpoints, accessibility gaps, and a prioritized improvement plan. Identify risks and propose test cases. Wait for approval.
-
-### Example prompt for IBM Bob — Agent mode
-> Implement the approved improvement plan. Keep the existing visual design and use reusable React components. Make changes in small, reviewable steps. Run `npm run build`, fix any errors, and summarize the files changed and manual checks I should perform.
-
 ## Project structure
 ```text
 src/
