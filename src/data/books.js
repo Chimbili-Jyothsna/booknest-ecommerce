@@ -1,0 +1,16 @@
+export const categories = ['All Books', 'Fiction', 'Technology', 'Business', 'Self-help', 'Science']
+
+export const books = [
+  { id: 1, title: 'The Midnight Library', author: 'Matt Haig', category: 'Fiction', price: 399, oldPrice: 499, rating: 4.8, badge: 'Bestseller', cover: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format&fit=crop&q=85', color: '#d7e4df' },
+  { id: 2, title: 'Atomic Habits', author: 'James Clear', category: 'Self-help', price: 449, oldPrice: 599, rating: 4.9, badge: 'Popular', cover: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&auto=format&fit=crop&q=85', color: '#e9d9bd' },
+  { id: 3, title: 'The Pragmatic Programmer', author: 'David Thomas', category: 'Technology', price: 699, oldPrice: 799, rating: 4.7, badge: 'Editor’s pick', cover: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=85', color: '#d7dce8' },
+  { id: 4, title: 'Ikigai', author: 'Héctor García', category: 'Self-help', price: 299, oldPrice: 399, rating: 4.6, badge: '', cover: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&auto=format&fit=crop&q=85', color: '#e9d8d3' },
+  { id: 5, title: 'Deep Work', author: 'Cal Newport', category: 'Business', price: 379, oldPrice: 499, rating: 4.7, badge: '', cover: 'https://images.unsplash.com/photo-1516979187457-637ccb4f9353?w=600&auto=format&fit=crop&q=85', color: '#d8e0e9' },
+  { id: 6, title: 'Project Hail Mary', author: 'Andy Weir', category: 'Science', price: 525, oldPrice: 650, rating: 4.8, badge: 'New arrival', cover: 'https://images.unsplash.com/photo-1511108690759-009324a90311?w=600&auto=format&fit=crop&q=85', color: '#e7d8bd' },
+  { id: 7, title: 'Think Again', author: 'Adam Grant', category: 'Business', price: 420, oldPrice: 550, rating: 4.5, badge: '', cover: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=600&auto=format&fit=crop&q=85', color: '#d9e3dc' },
+  { id: 8, title: 'The Creative Act', author: 'Rick Rubin', category: 'Fiction', price: 599, oldPrice: 750, rating: 4.9, badge: 'Trending', cover: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=85', color: '#e5d7c9' },
+  { id: 9, title: 'Clean Code', author: 'Robert C. Martin', category: 'Technology', price: 749, oldPrice: 899, rating: 4.6, badge: '', cover: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&auto=format&fit=crop&q=85', color: '#dce3e9' },
+  { id: 10, title: 'Educated', author: 'Tara Westover', category: 'Fiction', price: 399, oldPrice: 499, rating: 4.7, badge: '', cover: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&auto=format&fit=crop&q=85', color: '#e8d9cf' },
+  { id: 11, title: 'A Brief History of Time', author: 'Stephen Hawking', category: 'Science', price: 350, oldPrice: 450, rating: 4.6, badge: '', cover: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&auto=format&fit=crop&q=85', color: '#d9dfea' },
+  { id: 12, title: 'Start With Why', author: 'Simon Sinek', category: 'Business', price: 329, oldPrice: 429, rating: 4.5, badge: '', cover: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format&fit=crop&q=85', color: '#e8dfc9' }
+]
